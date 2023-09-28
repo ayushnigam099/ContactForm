@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="#" autocomplete="off" id="my-form"> 
+        <h3> Book a call</h3> 
+        <h6>Book a call slot and our representative will call you within 1hr of selected time</h6>
+        <hr>
+     <label for="name" class="nam">Name:</label> <br/>
+     <input type="text" id="name" name="name" class="nam" placeholder=" Enter your name" size="50" >
+      <br>
+      <label for="email" class="nam">Email:</label> <br>
+      <input type="email" class="nam" id="email" name="email" placeholder="Enter your email" size="50">
+      <br>
+      <label for="Phone" class="nam" > Phone:</label> <br>
+     <input type="tel"  class="nam" name="Phone" id="phone" placeholder="123-456-789" maxlength="10" size="50">
+       <br>
+       <label for="date" class="nam" >Time for Call:</label> <br>
+      <input type="date" class="nam" id="date" name="date" value="2020-11-22"> 
+      <input type="time" name="time" id="timing" value="11:00"> 
+      <br>
+      <input type="submit" value="GET A CALL" id="Call">
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- <script src="script.js"> </script> -->
+    <script src="Crud.js"></script>
+</body>
+</html>
